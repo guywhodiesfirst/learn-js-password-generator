@@ -29,3 +29,9 @@ function generatePasswords() {
     passwordEl1.textContent = getRandomPassword()
     passwordEl2.textContent = getRandomPassword()
 }
+
+function copyToClipboard(elementId) {
+    let elementToCopy = document.getElementById(elementId)
+    navigator.clipboard.writeText(elementToCopy.textContent)
+    alert("Password copied")
+}

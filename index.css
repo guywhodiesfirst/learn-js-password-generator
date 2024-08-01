@@ -75,4 +75,5 @@ button {
     color: #55F991;
     font-weight: 400;
     font-size: 16px;
+    cursor: pointer;
 }
